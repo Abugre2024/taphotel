@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  background-color: #01aef2;
+  align-items: center;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+nav img {
+  width: 80px;
+  cursor: pointer;
+}
+
+nav a {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: normal;
+  color: #007bff;
+  /* background-color: #5a2360; */
+  padding: 0 10px;
+  cursor: pointer;
+  color: white;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #5a2360;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #5a2360;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    color: white;
+  }
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.hero {
+  background-image: url(./assets/images/res.jpeg);
+  height: 100vh;
+  background-size: cover;
+  padding-top: 150px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  column-gap: 50px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.date {
+  background-color: #320d36;
+  display: flex;
+  margin: 10px;
+  padding: 40px;
+  gap: 20px;
+}
+
+.amazing-text {
+  font-family: Playfair Display, serif;
+  font-size: 90px;
+  text-align: center;
+  color: white;
+}
+
+.hero-text h2 {
+  text-align: center;
+  color: white;
+}
+
+.book {
+  margin-top: 10px;
+  line-height: 21px;
+  margin-left: 40%;
+  margin-bottom: 240px;
+}
+#arrival-date {
+  width: 200px;
+  height: 50px;
+  background-color: #5a2360;
+  border: none;
+  border-radius: 5px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+#arrival-date {
+  width: 200px;
+  height: 50px;
+  background-color: #5a2360;
+  border: none;
+  border-radius: 5px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#arrival-date a {
+  margin-bottom: 1020px;
+}
+
+.arrival-date:hover {
+  background-color: #01aef2;
+}
+
+.relax {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  margin-left: 10%;
+  margin-right: 10%;
+  column-gap: 20px;
+}
+
+.image {
+  width: 80%;
+  height: 400px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.relax-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.relax-text h3 {
+  font-family: Montserrat, sans-serif;
+  color: #7e7e7e;
+  font-size: 12px;
+  line-height: 9px;
+  letter-spacing: 2.4px;
+}
+
+.relax-text h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: normal;
+}
+
+.relax-text p {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  color: #a5a5a5;
+  letter-spacing: normal;
+}
+
+.relax-text a {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: normal;
+  color: #a5a5a5;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.book-btn {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: normal;
+  color: #007bff;
+  background-color: #5a2360;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.book-btn:hover {
+  background-color: #d6baa0;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 150px;
+  column-gap: 20px;
+}
+
+.footer-items img {
+  width: 80px;
+  cursor: pointer;
+}
